@@ -11,7 +11,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   currentPage = 0;
-  checkIndex(index:number)
+  checkWindowIndex(index:number)
   {
     return Math.abs(this.currentPage-index)<5;
   }
@@ -64,9 +64,5 @@ export class AppComponent {
     title: "At the Snow",
     url: 'https://media.istockphoto.com/id/649356542/photo/adventurous-people-making-ascent-to-high-mountain-walking-on-glacier.webp?a=1&b=1&s=612x612&w=0&k=20&c=qRNUM9m4We5lJfOsU9l4Equ5Hf2kccC3y24i_NPvtLk='
   }
-
-
-
   ];
-
 }
